@@ -1,0 +1,55 @@
+﻿
+@{
+    ViewBag.Title = "customer";
+
+}
+<script src="~/Scripts/Custome.js"></script>
+<h2 style="color:#4cff00">Data Collection</h2>
+
+<div class="form-group">
+    <h4>Enter your Name</h4>
+    <input type="text" class="form-control" id="name"/>
+</div>
+<div class="form-group">
+     <h4>Enter your Age</h4>
+     <input  type="text" class="form-control" id="age"/>
+</div>
+<div class="form-group">
+    <h4>Enter your Contact_no</h4>
+    <input type="text" class="form-control" id=contact_no" />
+</div>
+<div class="form-group">
+     <h4>Enter your Address</h4>
+     <input type="text" class="form-control" id="address"/>
+ </div>
+<div class="form-group">
+    <h4>Enter your Salary</h4>
+    <input type="text" class="form-control" id="salary"/>
+</div>
+<div class="form-group">
+    <h4>Enter your Hobby</h4>
+    <input type="text" class="form-control" id="hobby"/>
+</div>
+<button type="button" onclick="Insertcustomer();">Submit</button>
+
+
+
+<h4>InsertCustomer</h4>
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Contact_no</th>
+            <th>Address</th>
+            <th>Salary</th>
+            <th>Hobby</th>
+            <th>Action</th>
+
+        </tr>
+    </thead>
+    <tbody class="customers">
+
+    </tbody>
+</table>
+<script src="~/Scripts/Customer.js"></script>
